@@ -346,9 +346,37 @@ body {
 }
 
 .client-links .icon {
+  fill: currentColor;
+}
+
+.client-links .logo-1 {
   width: 49px;
   height: 44px;
-  fill: currentColor;
+}
+
+.client-links .logo-2 {
+  width: 40px;
+  height: 52px;
+}
+
+.client-links .logo-3 {
+  width: 41px;
+  height: 42px;
+}
+
+.client-links .logo-4 {
+  width: 79px;
+  height: 42px;
+}
+
+.client-links .logo-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.client-links .logo-6 {
+  width: 88px;
+  height: 45px;
 }
 
 .client-links .client:not(:last-child) {
@@ -477,8 +505,18 @@ body {
   text-align: left;
 }
 
-.portfolio .item:hover,
+/* .portfolio .item:hover,
 .portfolio .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:focus,
+.portfolio-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
